@@ -12,8 +12,13 @@ namespace PracticeWork
     {
         static void Main(string[] args)
         {
+
+            //Enormous Input Test 
+            Console.WriteLine(CodeChefBeginner.InputDivisibleCount());
+
             //ATM
-            Console.WriteLine(CodeChefBeginner.CalculateAccountBalance());
-        }        
+            //Console.WriteLine(CodeChefBeginner.CalculateAccountBalance());
+
+        }
     }
 }
