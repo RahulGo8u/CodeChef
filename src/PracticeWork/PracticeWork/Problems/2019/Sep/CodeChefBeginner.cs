@@ -45,5 +45,23 @@ namespace PracticeWork.Problems._2019.Sep
                 return remainingBalance;
             }
         }
+
+        /*Shivam is the youngest programmer in the world, he is just 12 years old. Shivam is learning programming and today he is writing his first program.
+           Program is very simple, Given two integers A and B, write a program to add these two numbers.*/
+        public static void SumOfNumbers()
+        {
+            int T = int.Parse(Console.ReadLine());
+            List<int> sumLst = new List<int>();
+            List<string> input = new List<string>();
+            for (int i = 0; i < T; i++)
+            {
+                input = Console.ReadLine().Split(' ').ToList();
+                sumLst.Add(int.Parse(input[0])+ int.Parse(input[1]));
+            }
+            foreach (var result in sumLst)
+            {
+                Console.WriteLine(result);
+            }
+        }
     }
 }

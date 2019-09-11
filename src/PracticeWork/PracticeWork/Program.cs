@@ -12,9 +12,11 @@ namespace PracticeWork
     {
         static void Main(string[] args)
         {
+            //Add Two Numbers
+            CodeChefBeginner.SumOfNumbers();
 
             //Enormous Input Test 
-            Console.WriteLine(CodeChefBeginner.InputDivisibleCount());
+            //Console.WriteLine(CodeChefBeginner.InputDivisibleCount());
 
             //ATM
             //Console.WriteLine(CodeChefBeginner.CalculateAccountBalance());
