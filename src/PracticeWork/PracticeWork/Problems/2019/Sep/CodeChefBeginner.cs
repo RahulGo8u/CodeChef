@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -59,6 +60,33 @@ namespace PracticeWork.Problems._2019.Sep
                 sumLst.Add(int.Parse(input[0])+ int.Parse(input[1]));
             }
             foreach (var result in sumLst)
+            {
+                Console.WriteLine(result);
+            }
+        }
+
+        /*You are asked to calculate factorials of some small positive integers.*/
+        public static void CalculateFactorials()
+        {
+            int t = int.Parse(Console.ReadLine());
+            List<BigInteger> factLst = new List<BigInteger>();
+            int n = 0;
+            BigInteger fact;
+            for (int i = 0; i < t; i++)
+            {
+                fact = 1;
+                n = int.Parse(Console.ReadLine());
+                if (n > 1)
+                {
+                    while (n > 0)
+                    {
+                        fact *= n;
+                        n--;
+                    }
+                }
+                factLst.Add(fact);
+            }
+            foreach (var result in factLst)
             {
                 Console.WriteLine(result);
             }

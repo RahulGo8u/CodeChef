@@ -12,8 +12,11 @@ namespace PracticeWork
     {
         static void Main(string[] args)
         {
+            //Small factorials
+            CodeChefBeginner.CalculateFactorials();
+
             //Add Two Numbers
-            CodeChefBeginner.SumOfNumbers();
+            //CodeChefBeginner.SumOfNumbers();
 
             //Enormous Input Test 
             //Console.WriteLine(CodeChefBeginner.InputDivisibleCount());
