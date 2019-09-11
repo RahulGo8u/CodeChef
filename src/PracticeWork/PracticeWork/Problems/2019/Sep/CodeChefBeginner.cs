@@ -91,5 +91,27 @@ namespace PracticeWork.Problems._2019.Sep
                 Console.WriteLine(result);
             }
         }
+
+        /*You're given an integer N. Write a program to calculate the sum of all the digits of N.*/
+        public static void SumOfDigits()
+        {
+            int t = int.Parse(Console.ReadLine());            
+            List<int> sumLst = new List<int>();
+            int sum;
+            for (int i = 0; i < t; i++)
+            {
+                sum = 0;
+                var input = Console.ReadLine().ToCharArray();
+                foreach (var c in input)
+                {
+                    sum += int.Parse(c.ToString());
+                }
+                sumLst.Add(sum);
+            }
+            foreach (var result in sumLst)
+            {
+                Console.WriteLine(result);
+            }
+        }
     }
 }

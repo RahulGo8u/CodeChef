@@ -12,8 +12,11 @@ namespace PracticeWork
     {
         static void Main(string[] args)
         {
+            //Sum of Digits
+            CodeChefBeginner.SumOfDigits();
+
             //Small factorials
-            CodeChefBeginner.CalculateFactorials();
+            //CodeChefBeginner.CalculateFactorials();
 
             //Add Two Numbers
             //CodeChefBeginner.SumOfNumbers();
